@@ -1,4 +1,7 @@
 The project is an interactive To-Do List application that enables management of tasks through a convenient digital interface. The application displays three status columns ("To Do", "Pending", "Completed") and allows users to add new tasks, edit and delete existing tasks, and change task status by dragging and dropping between columns. The application uses localStorage to save tasks, ensuring they persist even after page refresh. The interface is styled in a modern design with color-coding for different statuses, and users can also reset all tasks with a single button click. The project was developed using ChatGPT, which assisted in creating the HTML, CSS, and JavaScript code to implement the application.
+
+![ToDo](https://github.com/user-attachments/assets/05fd0061-59a2-43a8-9720-06f4244d30f8)
+
 # To-Do List App - Docker & Nginx
 
 ## 📌 תיאור הפרויקט
