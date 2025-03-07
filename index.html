@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do</h1>
+        <input type="text" id="taskInput" placeholder="Add a new task">
+        <button onclick="addTask()">Add</button>
+        <button onclick="resetTasks()">Rest</button>
+        
+        <div class="task-columns">
+            <div class="task-column" id="todoColumn">
+                <h3>To do</h3>
+                <ul id="todoList" class="task-list" data-status="לביצוע"></ul>
+            </div>
+            <div class="task-column" id="pendingColumn">
+                <h3>Pending</h3>
+                <ul id="pendingList" class="task-list" data-status="בהמתנה"></ul>
+            </div>
+            <div class="task-column" id="completedColumn">
+                <h3>Completed</h3>
+                <ul id="completedList" class="task-list" data-status="הושלם"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
